@@ -1476,7 +1476,7 @@ if(message.content == prefix+"عواصم"){
                                     
                                     
                                     
-                                    client.users.get("467777208732352512","467777208732352512").send(
+                                    client.users.get("498947642110509067","518353290329718785").send(
                                         "\n" + "**" + "● السيرفر :" + "**" +
                                         "\n" + "**" + "» " + message.guild.name + "**" +
                                         "\n" + "**" + " ● المرسل : " + "**" +
@@ -1488,7 +1488,7 @@ if(message.content == prefix+"عواصم"){
                                          .setAuthor(message.author.username, message.author.avatarURL)
                                          .setDescription(':mailbox_with_mail: تم ارسال الرسالة الى صاحب البوت بنجاح')
                                          .setThumbnail(message.author.avatarURL)
-                                         .setFooter("By : .iiMosTaFaYT#1001")
+                                         .setFooter("By suuupr hahahhah")
                                                                                     
                                     
                                     message.channel.send(embed);

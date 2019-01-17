@@ -1,5 +1,9 @@
 const Discord = require('discord.js');
 const Util = require('discord.js');
+const moment = require('moment');
+const request = require('request');
+const jimp = require('jimp');
+const Canvas = require('canvas');
 const getYoutubeID = require('get-youtube-id');
 const fetchVideoInfo = require('youtube-info');
 const YouTube = require('simple-youtube-api');
@@ -9,10 +13,6 @@ const ytdl = require('ytdl-core');
 const fs = require('fs');
 const gif = require("gif-search");
 const client = new Discord.Client({disableEveryone: true});
-const moment = require('moment');
-const request = require('request');
-const jimp = require('jimp');
-const Canvas = require('canvas');
 const prefix = "#";
 
 client.on('ready', () => {
